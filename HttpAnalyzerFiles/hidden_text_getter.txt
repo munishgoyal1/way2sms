@@ -1,0 +1,2357 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-5049507267707045");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-5049507267707045", "Qs_GS");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Quick SMS</title>
+<style type="text/css">
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+#bar1 {height:6px;
+	background:#9ed40a;
+	border-left:0px solid #b81818;
+	width:100px;
+	margin:5px 0;
+	padding:0;
+	overflow:hidden;
+}
+#wypoupup .input{
+padding: 4px 4px 3px 4px;
+}
+#wypoupup {
+	width:430px;
+	padding:0px;
+	border:5px solid #6895c6;
+	position: absolute;
+	left: 173px;
+	top: 108px;
+	background:white;
+	z-index: 9999999999999999999999999999999;
+}
+.leftmess1 {
+	position:absolute;
+	margin:-28px 0 0 225px;
+	_margin:-31px 0 0 230px;
+	display:block;
+	left: 37px;
+}
+.schbutton1 {padding:5px 8px;
+	color : #FFF;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -218px -440px;
+	border:0;
+	_width:80px;
+	float:right
+}
+
+#wypoupup .input{
+padding: 4px 4px 3px 4px;
+}
+.flt1 {float:left;
+}
+#wypoupup .wyhed{
+	padding:10px;
+	background:#4e81bc;
+	
+}
+#wypoupup .wytytle{
+	color:#fff;
+	font-weight:bold;
+	font-size:12px;
+}
+.wycantant {
+	margin:10px;
+	padding:10px;
+	border:1px solid #ccc;
+	z-index: 9999;
+}
+.wyclos {
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -348px -121px;
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 14px;
+	position: absolute;
+	right: 10px;
+	top: 6px;
+	cursor: pointer;
+}
+.wysubtytle {
+	font-size:12px;
+	margin:5px 10px;
+}	
+body {
+	background-color: #FFF;
+	margin:5px;
+	height: auto;
+}
+#quicksms {
+	width:810px;	
+	position:relative;
+	margin-left: 5px;
+	float: left;
+}
+.flt {
+	float:left;	
+}
+.frt {
+	float:right;	
+}
+h2,h3,h4,p,ul,li {
+	margin:0;
+	padding:0;
+	list-style-type:none;	
+}
+.topquick {
+	float:left;
+	border:1px solid #cecece;
+	background:#f1f1f1;
+	padding:12px 5px 5px 12px;
+	width:462px;
+	margin-top:53px;
+	
+	height:340px;
+}	
+.quickpart {
+	width:397px;	
+	background:#fff;
+	padding:25px 30px 0 30px;
+	_padding:25px 30px 0 25px;
+	border:0px solid #ccc;
+}
+.input {	border:1px solid #CCCCCC;
+	font:11px normal Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	padding:6px;
+	width:173px;
+}
+.txtarea{	border:1px solid #CCCCCC;
+	font:11px normal Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	padding:6px;
+	width:385px;
+	height:90px;
+	overflow: auto;
+}
+.schbutton {padding:5px 8px;
+	color : #FFF;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -218px -440px;
+	border:0;
+	_width:80px;
+	float:right
+}
+#bar {height:6px;
+	background:#9ed40a;
+	border-left:0px solid #b81818;
+	width:100px;
+	margin:5px 0;
+	padding:0;
+	overflow:hidden;
+}
+#btnSch {	width:80px;
+}
+.leftmess {
+	position:absolute;
+	margin:-38px 0 0 295px;
+	_margin:-31px 0 0 300px;
+	display:block;
+	left: 37px;
+}
+.check {
+	width:18px;
+	height:18px;
+	padding:3px 0 0 23px;
+	overflow:hidden;
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat;	
+}
+.check input{ 
+	border:0;
+	margin:0;
+	padding:0;
+	margin:0px;
+	_margin:-4px;
+}
+.sh-fb {
+	background-position:-45px -393px;
+	margin-left:3px;	
+}
+.sh-or {
+	background-position:-3px -393px;	
+}
+.quicktabs {
+	clear:both;
+	position:absolute;
+	height:52px;
+	top:0px;
+	left:0;
+}
+.quicktabs {
+		position:absolute;
+	bottom:-6px;
+	left:0;	
+}
+.quicktabs li{
+	width: 143px;
+	float:left;font-size:18px;
+	background:#cecece;
+	margin:0 3px 0px 0;
+	padding:6px 2px 9px 12px;
+	cursor:pointer;
+	border-bottom:3px solid #fff;
+	color:#3d3d3d;
+}
+.quicktabs li.active{
+	width: 140px;
+	float:left;font-size:18px;
+	background:#f1f1f1;
+	margin:0 3px 0px 0;
+	padding:6px 0 12px 11px;
+	cursor:pointer;
+	border:1px solid #ccc;
+	border-bottom:0px solid #fff;
+	color:#1c5eaa;
+}
+.quicktabs li span{
+	font-size:11px;
+	display:block;
+	color:#3d3d3d; 
+}
+
+.msgs {
+	position:absolute;
+	right:0px;
+	top:0;	
+	background:#fff;
+	height:410px;
+	width:322px;
+	border:1px solid #ccc;
+
+}
+.msgs li{
+	display:block;
+	float:left;
+	padding:6px 13px;
+	border-left:1px solid #fff;
+	border-right:1px solid #a8a8a8;
+	font-weight:bold;
+	margin:3px 0;
+	cursor:pointer;
+	position:relative;
+}
+.msgs li:last-child{
+	border-right:0;
+}
+.msgs li.active{
+	padding:9px 13px;
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -218px -474px;
+	color:#fff;
+	margin:0;
+}
+.msgs li.active span {
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -254px -296px;
+	width:15px;
+	height:10px;
+	display:table;
+	position:absolute;	
+	position:absolute;
+	bottom:-10px;
+	_background:none;
+	_overflow:hidden;
+	left:40%;
+	z-index: 99999;
+}
+.msgs li.active span em
+{
+	_display:block;
+	_margin:-296px 0 0 -254px;
+	_width:662px;
+	_height:740px;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://images.way2sms.com/v3/images/sprite.png", sizingMethod="crop");
+}
+.mtabs {
+	height:35px;
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -0px -520px;	
+}
+.mtabs .plus {
+	width:22px;
+	height:20px;
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -1px -418px;
+	padding:0;
+	margin-top:5px;
+}
+.ads1 {background:#cbccd0;
+	text-align:center;
+	padding:6px 0;
+}
+.ads1 {height:250px;
+	padding:10px 14px;
+	clear:both;
+	overflow:hidden;
+}
+
+.search {	background:url(../images/dash-search-bg.png) no-repeat;
+	width:186px;
+	height:20px;	
+	border:0;
+	margin:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	line-height:11px;padding:2px 5px;
+	float:left;
+}
+.searchresults {	padding:10px;
+	border:3px solid #dff2ff;	
+}
+.searchresults-h {position:relative;
+height:32px;
+background:#dff2ff;	
+}
+.shar-head {	height:46px;
+	border:1px solid #ccc;
+	border-width:0 0 1px 0;	
+	margin-bottom:5px;
+	position:relative;
+}
+.shar-search {	position:absolute;
+	right:5px;
+	bottom:8px;	
+}
+.shar-tabs {	position:relative;
+}
+.share-box {
+	padding:10px 0 5px 0;
+	border-bottom:1px solid #ced8e0;
+}
+.share-content p{
+	font-size:12px;
+	color:#404040;
+	margin-bottom:10px;
+}
+.way-small {	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -34px -418px;
+	width:10px;
+	height:10px;
+	display:block;	
+}
+a.searchBtn {	background:url(../images/dash-search-ico.png) no-repeat;
+	width:24px;
+	height:24px;
+	display:block;
+	text-indent:-9999px;
+	float:left;
+	margin-left:5px;		
+}
+b.r1 {margin: 0 5px}
+b.r2 {margin: 0 3px}
+b.r3 {margin: 0 2px}
+b.rb1 {margin: 0 5px}
+b.rb2 {margin: 0 3px}
+b.rb3 {margin: 0 2px}
+b.rbottom {display:block;background: #FFF; }
+b.rtop {display:block;background: #FFF; }
+#shared {	
+	
+	padding:0px;
+	background:#fff;
+}
+#dashboard {	
+	border:1px solid #ccc;
+	width:605px;
+	_width:604px;
+	background:#f3f8f7;
+	padding:13px;
+	
+}
+#invitecontacts {float:left;
+	height:90px;
+	border:6px solid #e3e4ec;
+	margin-bottom:10px;
+	clear:both;
+	width:628px;
+	overflow:hidden;
+}
+#invitecontacts {	
+	height:90px;
+	border:6px solid #e3e4ec;
+	margin-bottom:10px;
+}
+#shared {	padding:10px 0px;
+}
+</style>
+<style type="text/css">
+<!--
+b.rtop, b.rbottom{display:block;background: #FFF; }
+b.rtop b, b.rbottom b{display:block;height: 1px;
+    overflow: hidden; background: #cbccd0}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+
+b.rb1{margin: 0 5px}
+b.rb2{margin: 0 3px}
+b.rb3{margin: 0 2px}
+b.rbottom b.rb4{margin: 0 1px;height: 2px}
+
+
+.ads {
+	background:#cbccd0;
+	text-align:center;
+	padding:6px 0;
+}
+body {
+	margin: 0px;
+	background: #FFFFFF;
+	font:11px normal Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,ul,p {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#invitecontacts {	float:left;
+	height:90px;
+	border:6px solid #e3e4ec;
+	margin-bottom:10px;
+	clear:both;
+	width:628px;
+	overflow:hidden;
+}
+
+#invitecontacts {
+	
+	height:90px;
+	border:6px solid #e3e4ec;
+	margin-bottom:10px;
+}
+#invitecontacts h2{
+	background:#e3e4ec;
+	padding:5px 14px;
+	font-size:18px;
+	font-weight:normal;
+}
+#invitecontacts .gmail,#invitecontacts .yahoo{
+	padding:4px 6px 4px 10px;
+	margin:10px 0;
+	border-right:1px solid #666666;
+	
+}
+#invitecontacts .yahoo{
+	border:none;
+}
+#invitecontacts .yahoo .name{
+	background:url(../images/input_yahoo.png) no-repeat;
+	padding-left:33px;
+}
+#invitecontacts .gmail .name{
+	background:url(../images/input_gmail.png) no-repeat 1px 2px;
+	padding-left:32px;
+}
+
+#invitecontacts .name,#invitecontacts .pass{
+	border:1px solid #b8b8b8;
+	height:21px;
+	margin:0;
+	font-size:11px;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+#invitecontacts .name {
+	margin-right:3px;
+	width:105px;
+}
+#feedback {
+	background:#fffae4;
+	clear:both;
+	padding:15px 15px 40px 15px;
+	margin-top:-12px;
+}
+#feedback h2 {
+	font-size:18px;
+	font-weight:normal;
+	color:#8a621b;
+	margin:0px 0 10px 0;
+}
+#feedback textarea{
+	background:#fff;
+	border:1px solid #666;
+	padding:5px;
+	width:590px;
+	height:70px;
+	font:11px normal Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+#feedback .submit, .cancel {
+	background:#d32b1b;
+	color:#fff;
+	font-weight:bold;
+	border:1px solid #b7130c;
+	font:11px bold Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	padding:5px 8px;
+}
+.cancel {
+	background:#666666;
+	border-color:#333333;
+	margin-left:5px;
+}
+
+.flt {
+	float:left;
+}
+.ads1 {background:#cbccd0;
+	text-align:center;
+	padding:6px 0;
+}
+.ads1 {height:250px;
+	padding:10px 14px;
+	clear:both;
+	overflow:hidden;
+}
+.flt1 {	float:left;
+}
+.overfff {
+	margin-bottom:10px;position: relative; height: 310px; overflow: auto; overflow-x: hidden;
+}
+b.rlbottom {display:block;background: #FFF; }
+
+
+
+
+.shar-link td a{
+	font-family:Tahoma, Geneva, sans-serif;	
+	color:#1c5ea9;
+	text-decoration:none;
+}
+.shar-head h1 {
+	font-size:18px;
+	font-weight:normal;
+	width:135px;
+	margin:12px 0 0 0px;
+	padding-left:15px;	
+}
+
+.shar-head li {
+	float:left;	
+	margin-left:3px;
+}
+.shar-head li a {
+	display:block;
+	padding:7px 9px;
+	background:#dae2e8;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;	
+	margin-bottom:3px;
+}
+.shar-head li a.active {
+	
+	color:#1c5ea9;
+	background:#fff;
+	border:1px solid #ccc;
+	border-bottom-color:#fff;
+	margin-bottom:0;
+	
+}
+.shar-tabs {
+	position:relative;	
+	width:450px;
+}
+.shar-tabs ul{
+	position:absolute;
+	top:18px;	
+	left:-40px;
+}
+.search {
+	background:url(../images/dash-search-bg.png) no-repeat;
+	width:186px;
+	height:20px;	
+	border:0;
+	margin:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	line-height:11px;padding:2px 5px;
+	float:left;
+}
+.shar-search  {
+	position:absolute;
+	right:5px;
+	bottom:8px;	
+}
+a.searchBtn {
+	background:url(../images/dash-search-ico.png) no-repeat;
+	width:24px;
+	height:24px;
+	display:block;
+	text-indent:-9999px;
+	float:left;
+	margin-left:5px;		
+}
+
+a.searchBtn:hover {
+	background:url(../images/dash-search-ico.png) no-repeat;
+	background-position:left bottom;
+	
+	width:24px;
+	height:24px;
+	display:block;
+	text-indent:-9999px;		
+}
+.searchresults-h {
+position:relative;
+height:32px;
+background:#dff2ff;	
+}
+.searchresults {
+	padding:10px;
+	border:3px solid #dff2ff;	
+}
+.searchresults-h a.close{
+	position:absolute;
+	right:10px;
+	top:5px;
+	background:url(../images/dash-close.png) no-repeat;
+	width:23px;
+	height:22px;
+	display:block;	
+	cursor:pointer;
+}
+.searchresults-h a.close:hover{
+	background-position:left bottom;
+}
+
+
+.way-small {	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -34px -418px;
+	width:10px;
+	height:10px;
+	display:block;	
+	overflow: hidden;
+}
+.way-small1 {	
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -34px -418px;
+	width:10px;
+	height:10px;
+	display:block;	
+	overflow: hidden;
+}
+
+.ad460 {
+	height:60px;
+	padding:25px 2px ;
+	text-align:center;	
+	width:468px;
+	position:absolute;
+	left:5px;
+	bottom: -9px;
+	_bottom: -19px;
+}
+.naviga {
+	height:30px;
+	padding:0 15px;	
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.naviga a{
+	display:block;
+	float:right;
+	padding:8px 12px;
+	background:#e8e8e8;
+	border:1px solid #cdcdcd;
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;	
+	margin-left:5px;
+}
+.nav {
+}
+a {
+	outline: none;
+}
+.paddig {
+	padding: 10px 28px;
+}
+.menulist {
+	background:#fff;
+	border:1px solid #b2cbd2;
+	margin:0;
+	padding:10px 10px 0 10px;
+	position:absolute;
+	line-height:11px;
+	top:25px;
+	z-index:99999999999999999;
+	right:0px;
+	height:180px;
+	width:130px;
+	overflow:auto;
+	overflow-x:hidden;
+	float: left;
+}
+.menulist p {
+	line-height:11px;
+	padding:0;
+	margin:0;
+	display:block;
+	background:#fff;
+}
+.greimg{
+	background: url("http://images.way2sms.com/v3/images/chatsprite.gif") no-repeat;
+	background-position: bottom right;
+	width: 9px;
+	height:9px;
+	float: left;
+	margin-right: 5px;
+}
+.menulist p a{
+	display:block;
+	padding:5px;
+	color:#000;
+	text-decoration:none;
+	border-bottom:1px solid #ccc;
+	
+}
+.menulist p a:hover{
+	background:#FC0;	
+}
+
+
+#messages a{
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+#messages h2{
+	font-size: 12px;
+	padding-top: 10px;
+}
+.sharemesgs {
+	position: absolute;
+	left: 280px;
+	margin-bottom: 0px;
+}
+.fb-small {
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -58px -418px;
+	width:9px;
+	height:10px;
+	display:block;	
+	overflow: hidden;
+}
+.email-small {
+	background:url(../images/email-small.png) no-repeat;
+	width:12px;
+	height:10px;
+	display:block;	
+	overflow: hidden;
+}
+.wyclos1 {
+		background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -348px -121px;
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 14px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+	display: block;
+	z-index: 22;
+}
+.orkut-small {
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat -45px -418px;
+	width:9px;
+	height:10px;
+	display:block;	
+	overflow: hidden;
+}
+.sharemesgs .faceshare{
+	position: absolute;
+	right: 12px;
+	bottom: 3px;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	cursor: pointer;	
+	background:url(../images/fb-small.png) no-repeat;
+	width:10px;
+	height:10px;
+	text-indent: -9999px;
+}.sharemesgs .orkshare{
+	position: absolute;
+	right: 0px;
+	bottom: 3px;
+	color: #f00;
+	font-weight: bold;
+	display: block;
+	cursor: pointer;
+	background:url(../images/orkut-small.png) no-repeat;
+	width:10px;
+	height:10px;
+	text-indent: -9999px;
+}
+#messages{
+	background:#fff;
+	padding:18px 0px 0px 10px;
+	border-bottom:16px solid #fff;
+}
+.toppg
+{
+	position:absolute; 
+	right:0px;
+	top:35px;
+	width:311px;
+	padding:2px 5px;
+	background:#f2f2f2;
+	text-align:right;
+}
+.bottpg
+{
+	position:absolute;
+	 left:0px;
+	 top:388px;
+	 width:311px;
+	padding:2px 5px;
+	background:#f2f2f2;
+	border-bottom:1px solid #ccc;
+	text-align:right;
+}
+#messages p{
+	line-height:16px;
+	padding:5px;
+	border-bottom:1px solid #ccc;
+
+}
+#messages .nav{
+float: right;
+}
+#messages .nav li{
+	padding: 1px 3px;
+	margin: 0;
+	border: 0;
+	background: #f2f2f2;
+	margin-left: 2px;
+}
+#messages .nav li a.activepage{
+	background: #ccc;
+	padding: 1px 3px;
+}
+.exadd {
+	padding:5px;
+	background:#f2f2f2;
+	width:160px;
+	position:absolute;
+	right:4px;
+	top:4px;	
+}
+.exadd-box {
+	padding-top:5px;	
+}
+.exadddiv {
+	background:#fff;
+	padding:0px 5px 10px 0px;	
+}
+.exadddiv h2{
+	color:#1c5ea9;
+	border-bottom:1px solid #d9d9d9;
+	font-size:11px;
+	padding:8px 0;
+	
+}
+.exadddiv img{
+	/*height:74px;*/
+	margin:4px 0;
+}
+.exadddiv p {
+	color:#494949;	
+	line-height:14px;
+	margin-bottom:4px;
+}
+.exadddiv a {
+	color:#1960c9;	
+	display:block;
+	text-decoration:none;
+	padding:5px 0 0 0;
+}
+.inviteconnhold .icon {
+	width:32px;
+	height:33px;	
+	margin-right:8px;
+}
+.inviteconn {
+	width:383px;	
+}
+.inviteconnhold {
+	border-bottom:1px solid #e0e0e0;
+	padding:10px;	
+	margin-bottom:5px;
+}
+.inviteconn .input {
+	width:117px;
+	padding:4px;
+	font-family:Tahoma, Geneva, sans-serif;	
+	font-size:11px;
+	border:1px solid #bfbfbf;
+}
+.inviteconn p{
+	margin-bottom:4px;	
+}
+
+
+.flt2 {	float:left;	
+}
+.flt2 {	float:left;
+}
+.bbtn {
+	width:29px;
+	height:22px;
+	border:1px solid #12499c;	
+	background:#487fd2;
+	color:#fff;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	cursor: pointer;
+}
+.QSloading {
+	color:#000;
+	padding:5px 0px;
+	text-align:center;
+	position: absolute;
+	width:100px;
+	margin: -25px 0 0 0px;
+	left:395px;
+	font-weight:bold;
+	display: none;
+}
+.QSloading1 {
+	color:#000;
+	padding:5px 0px;
+	text-align:center;
+	position: absolute;
+	width:100px;
+	margin: -25px 0 0 0px;
+	left:395px;
+	font-weight:bold;
+	display: none;
+}
+.QSloading2 {
+	color:#000;
+	padding:5px 0px;
+	text-align:center;
+	position: absolute;
+	width:100px;
+	margin:0px 0 0 0px;
+	left:55px;
+	font-weight:bold;
+	display: none;
+}
+#QSPOPUP {
+	position : absolute;
+	left: 100px;
+	top: 85px;
+	width:460px;
+	border:3px solid #054b92;
+	font-size:11px;
+	font-family:verdana, Arial;
+	z-index: 99999999;
+	background: #fff;
+	display: none;
+}
+#QSinPoph {
+	background: #054b92;
+	padding:0px;
+	color:#fff;
+	height: 30px;
+	font-weight: bold;
+}
+
+
+#QSinPoph .clo, #QSinPoph .titlebartext{
+	display:table-cell;
+	
+}
+ #QSinPoph .titlebartext{ 
+	width:440px;
+	padding:8px;
+
+}
+#QSinPoph .clo {
+	
+	
+	width:14px;
+	height:14px;
+	cursor:pointer;
+	display: block;
+	margin-left: 445px;
+	margin-top: -30px;
+}
+
+#QSinPOPb {
+	background: #fff;
+	padding:0 10px;
+	margin:10px 0;
+	color:#000;
+	font-size:11px;
+	font-family:verdana, Arial;
+	
+}
+
+#QSinPOPb .QSPOPtt {
+	font-size:12px;
+	font-weight:bold;
+	color:#0576ae;
+	padding: 15px 0 15px 0px;
+	margin:0 15px;
+	border-bottom:1px solid #000;
+}	
+#QSinPOPb .QSPOPselec {
+	font-weight:normal;
+	color:#000;
+	font-size:11px;
+	margin-left: 50px;
+}
+
+#QSinPOPb ul{	
+	padding:0 10px;
+	margin:0;
+	list-style-type:none;
+	height :	350px;
+	overflow:auto;
+}
+
+#QSinPOPb li{	
+	padding:0 6px;
+	margin:0;
+	border-bottom:1px solid #d8d8d8;
+	line-height:12px;
+	display:table-row;
+	width:90%;
+	float:left;
+}
+
+
+
+
+
+.QSPOPchk,  .QSPOPemail{
+	display:table-cell;
+	font-size:12px;
+	vertical-align:middle;
+	
+}
+  .QSPOPemail{
+	float:left;
+	padding:9px 0 0 0;
+}
+.QSPOPchk {
+	width:25px;
+	padding:6px 0;
+	margin:0;
+	float:left;
+}
+
+.QSPOPbtn {
+	padding:15px 10px;
+
+}
+
+.QSPOPbtn input{
+	background:#0576ae;
+	border:0;
+	font-size:11px;
+	color:#fff;
+	font-weight:bold;
+	padding:9px 10px;
+}
+
+.yinput1{
+padding:6px 6px 0 6px;
+	height:28px;
+	font-size:12px;
+	width:115px;
+	margin:0;
+	border:1px solid #757575;
+	width:111px;
+	border-color: #757575 #fff #757575 #fff;
+	background-image: url(../images/sprite1.png);
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-color: #FFFFFF;
+}
+.arrdll1 {width:7px; height:7px; background-image: url(../images/sprite.gif);cursor:pointer; float:right; margin: -5px 10px 0 0;   	background-repeat: no-repeat; background-position: -57px -417px;  }
+
+#slectitems {
+	position: absolute;
+	margin: 474px 0 0 380px;
+	width:120px;
+	border:1px solid #999999;
+	border-top:none;
+	background:#FFFFFF;
+	display:none;
+	}
+	/*\*/
+	* html #slectitems{
+	
+	margin: 474px 0 0 386px;
+	}
+	.gmail12 {
+	background:url("http://images.way2sms.com/v3/images/sprite.png");
+	background-position:-0px -248px;
+	width:57px;
+	height:18px;
+	cursor: pointer;
+}
+.orkut12 {
+	background:url("http://images.way2sms.com/v3/images/sprite.png");
+	background-position:-57px -248px;
+	width:57px;
+	height:19px;
+	cursor: pointer;
+}
+.FB {
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat;
+	background-position:-113px -155px;
+	width:32px;
+	height:33px;	
+	_background: none;
+	_overflow: hidden;
+}
+.FB em {
+	_display:block;
+	_margin:-155px 0 0 -113px;
+	_width:662px;
+	_height:740px;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://images.way2sms.com/v3/images/sprite.png", sizingMethod="crop");
+}
+
+.GM {
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat;
+	background-position:-40px -155px;
+	width:32px;
+	height:33px;	
+	_background: none;
+	_overflow: hidden;
+}
+.YM {
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat;
+	background-position:-77px -155px;
+	width:32px;
+	height:33px;	
+	_background: none;
+	_overflow: hidden;
+}
+.ORK {
+	background:url(http://images.way2sms.com/v3/images/sprite.png) no-repeat;
+	background-position:-148px -155px;
+	width:32px;
+	height:33px;	
+	_background: none;
+	_overflow: hidden;
+}
+.ORK em {
+	_display:block;
+	_margin:-155px 0 0 -148px;
+	_width:662px;
+	_height:740px;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://images.way2sms.com/v3/images/sprite.png", sizingMethod="crop");
+}
+.GM em {
+	_display:block;
+	_margin:-155px 0 0 -40px;
+	_width:662px;
+	_height:740px;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://images.way2sms.com/v3/images/sprite.png", sizingMethod="crop");
+}
+.YM em {
+	_display:block;
+	_margin:-155px 0 0 -77px;
+	_width:662px;
+	_height:740px;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://images.way2sms.com/v3/images/sprite.png", sizingMethod="crop");
+}
+a {
+	outline: none;
+}
+
+#sentsmsads {padding: 2px;width: 300px;border: 2px solid #f0570a;background-color: #FFFFFF;top: 370px;left: 90px;position: absolute;z-index: 2222222;}
+#sentsmsads .ttle {border: 3px solid #fbd2be;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;font-weight: bold;color: #fdebe1;background-color: #F0570A;padding: 10px;width: 162px;}
+#sentsmsads .lis1 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #4d4d4d;line-height: 16px;margin:10px 0 0 0;padding-left:30px;background-image: url(http://images.way2sms.com/jsp_images/way2sentsmsbgs.gif);background-repeat: no-repeat;background-position: 3px -25px;}
+.way2sentsmsclose {
+    background-image: url("http://images.way2sms.com/jsp_images/way2sentsmsbgs.gif");
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    border: 2px solid #F0570A;
+    cursor: pointer;
+    font-size: 11px;
+    height: 12px;
+    margin: -8px 0 0 285px;
+    padding: 2px;
+    position: absolute;
+    width: 12px;
+}
+/**/
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'block':(v=='hide')?'none':v; }
+    obj.display=v; }
+	
+}
+//-->
+</script>
+<script type="text/javascript" src="http://images.way2sms.com/js2/browserdetect.js"></script>
+<script  language="Javascript" src="http://sc3.way2sms.com/v3/js2/instantsms.js" type="text/javascript"></script>
+<script type="text/javascript">
+function disp2(d)
+{
+	if(d=="0")
+	{
+		document.getElementById("menulist").style.display="block";
+	}
+	else
+	{
+		document.getElementById("menulist").style.display="none";
+	}
+}
+function getdata(data)
+{
+		document.getElementById("textArea").value=document.getElementById(data).innerHTML;
+		document.InstantSMS.txtLen.value=140-document.getElementById("textArea").value.length;
+		  var st=document.getElementById("textArea").value.length/1.4;
+    	 	var st3=st+"px solid #b81818";
+    	   document.getElementById("bar").style.borderLeft=st3;
+    	   var st1=100-st;
+    	   var st2=st1+"px";
+       		document.getElementById("bar").style.width=st2;
+       		//document.getElementById('popup').style.display='none';
+       		window.parent.window.scroll(200,200);
+}
+function greet1(data1)
+{
+	if(data1=="down")
+	{
+		var st=document.getElementById("licat").style.marginTop.substring(0,document.getElementById("licat").style.marginTop.length-2)-15;
+		var st1=st;
+		if(st1!=-555)
+		{
+			document.getElementById("licat").style.marginTop=st+"px";
+			document.getElementById("up").style.backgroundImage ="url(../images/group_up.png)";
+			document.getElementById("down").style.backgroundImage="url(../images/group_down.png)";
+		}
+		else
+		{
+			document.getElementById("down").style.backgroundImage="url()";
+			
+		}
+		clearTimeout(t);
+		t=setTimeout("greet1('down');",100);
+	}
+	else
+	{
+		var st=parseInt(document.getElementById("licat").style.marginTop.substring(0,document.getElementById("licat").style.marginTop.length-2))+15;
+		if(st!=0)
+		{
+			document.getElementById("licat").style.marginTop=st+"px";
+			document.getElementById("down").style.backgroundImage="url(../images/group_down.png)";
+			document.getElementById("up").style.backgroundImage="url(../images/group_up.png)";
+		}
+		else
+		{
+			document.getElementById("up").style.backgroundImage="url()";
+			
+		}
+		clearTimeout(t);
+		t=setTimeout("greet1('up');",100);
+	}
+	
+}
+var t=0;
+function disps1()
+{
+	t=setTimeout("greet1('up');",100);
+}
+function disps2()
+{
+	clearTimeout(t);
+}
+function disps3()
+{
+	t=setTimeout("greet1('down');",100);
+}
+function disps4()
+{
+	clearTimeout(t);
+}
+var lri="";
+var sel=0;
+function getcatdata1 (catname,nxtid){
+	document.getElementById("popular").className="";
+	document.getElementById("msgs").className="";
+	document.getElementById("jokes").className="";
+	document.getElementById("div_catname").className="";
+	if(nxtid=="popular"){
+	document.getElementById("popular").className="active";
+	getcatdata2(catname,0);
+	}
+	else if(nxtid=="msgs"){
+	document.getElementById("msgs").className="active";
+	if(window.parent.draftMsg.length!=0)
+    {
+      			//document.write(": ("+window.parent.draftMsg.length+")");
+      			
+      			var i=0;
+      			var st="<div class='overfff'><p style='color: gray;'>Displays most recently sent messages here.Type your message once and use it to send multiple times.</p>";
+      			
+      			for(i=0;i<=window.parent.draftMsg.length-1;i++)
+      			{
+      				st=st+"<p><a href=\"javascript:getdata('gre"+i+"');\" id='gre"+i+"'>"+window.parent.draftMsg[i]+"</a> </p>";
+      			}
+      			document.getElementById("messages").innerHTML=st+"</div>";
+    }
+    else
+    {
+    	var st="<div class='overfff' style='height:310px;'><p style='color: gray;'>Displays most recently sent messages here.Type your message once and use it to send multiple times.</p></div>";
+    	document.getElementById("messages").innerHTML=st;
+    }
+	
+	
+	}
+	else if(nxtid=="jokes"){
+		document.getElementById("jokes").className="active";
+		getcatdata3(catname,0,'Test');
+	}
+	else if(nxtid=="div_catname"){
+		document.getElementById("div_catname").className="active";
+		getcatdata2(document.getElementById("catnamedis").value,0);
+	}
+
+
+
+}
+function getcatdata2(catname,nxtid){
+	var paramData = "acction=newsms&catname="+catname+"&pageno="+nxtid;
+
+	document.getElementById("messages").innerHTML="<div style='margin-top:210px;margin-left:240px;width:300px;'><img src='http://images.way2sms.com/v3/images/loading8.gif'></div>";
+		var url = "../getSmsGreetings";
+		
+		var callback = {
+		  success: 	function(o) {
+		  		
+		  		var resp=o.responseText;
+		  		var split_cat;
+		  		//document.getElementById('div_catname').style.display='block';
+		  		if(catname.length>15)
+		  		{
+		  			split_cat=catname.substring(0,14)+"...";
+		  		}
+		  		else
+		  		{
+		  			if(catname=="Sankranthi")
+		  			{
+		  				catname="Pongal";
+		  			}
+		  			split_cat=catname;
+		  		}
+		  	//	document.getElementById('div_catname').className='style';
+		  		//document.getElementById('dllselected').innerHTML=split_cat;
+		  		document.getElementById("messages").innerHTML=resp;
+		  },
+		  failure: 	function(o) {
+		  		alert("Failed to connect to the server.Please try again");	
+		  },
+		  argument: [],
+		  timeout: 60000
+		}
+	var request = window.parent.YAHOO.util.Connect.asyncRequest('POST', url, callback, paramData);
+}
+
+function getcatdata(catname,nxtid){
+	document.getElementById("popular").className="";
+	document.getElementById("msgs").className="";
+	document.getElementById("jokes").className="";
+	document.getElementById("div_catname").className="active";
+	document.getElementById("messages").style.display="block";
+	var paramData = "acction=newsms&catname="+catname+"&pageno="+nxtid;
+	document.getElementById("messages").innerHTML="<div style='margin-top:210px;margin-left:240px;width:300px;'><img src='http://images.way2sms.com/v3/images/loading8.gif'></div>";
+		var url = "../getSmsGreetings";
+		
+		var callback = {
+		  success: 	function(o) {
+		  		
+		  		var resp=o.responseText;
+		  		var split_cat;
+		  		//document.getElementById('div_catname').style.display='block';
+		  		document.getElementById("catnamedis").value=catname;
+		  			if(catname=="Pongal")
+		  			{
+		  				catname="Sankranthi";
+		  			}
+		  			if(catname=="Quotations")
+		  			{
+		  				catname="Quotes";
+		  			}
+		  		if(catname.length>8)
+		  		{
+		  			split_cat=catname.substring(0,7)+"..";
+		  		}
+		  		else
+		  		{
+		  			
+		  			split_cat=catname;
+		  		}
+		  		document.getElementById("menulist").style.display="none";
+		  	//	document.getElementById('div_catname').className='style';
+		  		document.getElementById('div_catname').innerHTML="<span></span>"+split_cat;
+		  		//document.getElementById('dllselected').innerHTML=split_cat;
+		  		document.getElementById("messages").innerHTML=resp;
+		  },
+		  failure: 	function(o) {
+		  		alert("Failed to connect to the server.Please try again");	
+		  },
+		  argument: [],
+		  timeout: 60000
+		}
+	var request = window.parent.YAHOO.util.Connect.asyncRequest('POST', url, callback, paramData);
+}
+function getcatdata3(catname,nxtid){
+	document.getElementById("popular").className="";
+	document.getElementById("msgs").className="";
+	document.getElementById("jokes").className="active";
+	document.getElementById("div_catname").className="";
+	document.getElementById("messages").style.display="block";
+	var paramData = "acction=newsms&catname="+catname+"&pageno="+nxtid;
+	paramData = paramData+"&test=jokes";
+	document.getElementById("messages").innerHTML="<div style='margin-top:210px;margin-left:240px;width:300px;'><img src='http://images.way2sms.com/v3/images/loading8.gif'></div>";
+		var url = "../getSmsGreetings";
+		
+		var callback = {
+		  success: 	function(o) {
+		  		
+		  		var resp=o.responseText;
+		  		var split_cat;
+		  		//document.getElementById('div_catname').style.display='block';
+		  		if(catname.length>8)
+		  		{
+		  			split_cat=catname.substring(0,7)+"..";
+		  		}
+		  		else
+		  		{
+		  			if(catname=="Sankranthi")
+		  			{
+		  				catname="Pongal";
+		  			}
+		  			split_cat=catname;
+		  		}
+		  		document.getElementById("menulist").style.display="none";
+		  	//	document.getElementById('div_catname').className='style';
+		  		//document.getElementById('dllselected').innerHTML=split_cat;
+		  		document.getElementById("messages").innerHTML=resp;
+		  },
+		  failure: 	function(o) {
+		  		alert("Failed to connect to the server.Please try again");	
+		  },
+		  argument: [],
+		  timeout: 60000
+		}
+	var request = window.parent.YAHOO.util.Connect.asyncRequest('POST', url, callback, paramData);
+}
+function closegre()
+{
+	//document.getElementById("popup").style.display="none";
+	document.getElementById(lri).style.backgroundColor="#fff";
+
+}
+function closegre1()
+{
+	//document.getElementById("popup").style.display="block";
+	document.getElementById(lri).style.backgroundColor="#cae191";
+
+}
+var email1="";
+var flgimp=0;
+function import1(type)
+{
+	
+	if(type=="g")
+	{
+			if(document.getElementById("guid").value=="" || document.getElementById("guid").value=="username")
+			{
+				alert("Please Enter Emailid");
+				document.getElementById("guid").focus();
+				return false;
+			}
+			
+			var email=document.getElementById("guid").value;
+			var pwd=document.getElementById("gpwd").value;
+			var provider_box="gmail";
+			if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)!=true)
+			{
+				alert("Invalid E-mail Address! Please Re-Enter.");
+				document.getElementById("guid").focus();
+				return;
+			}
+			if(document.getElementById("gpwd").value=="" || document.getElementById("gpwd").value=="*******")
+			{
+				alert("Please Enter Password");
+				document.getElementById("gpwd").focus();
+				return false;
+			}
+			email1=email;
+			document.getElementById("gload").style.display="block";
+				
+	 }
+	 if(type=="y")
+	 {
+			if(document.getElementById("yuid").value=="" || document.getElementById("yuid").value=="username")
+			{
+				alert("Please Enter Emailid");
+				document.getElementById("yuid").focus();
+				return false;
+			}
+			
+			var email=document.getElementById("yuid").value;
+			var pwd=document.getElementById("ypwd").value;
+			var provider_box="yahoo";
+			if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)!=true)
+			{
+				alert("Invalid E-mail Address! Please Re-Enter.");
+				document.getElementById("yuid").focus();
+				return;
+			}
+			if(document.getElementById("ypwd").value=="" || document.getElementById("ypwd").value=="*******")
+			{
+				alert("Please Enter Password");
+				document.getElementById("ypwd").focus();
+				return false;
+			}
+			email1=email;
+			document.getElementById("yload").style.display="block";
+			
+	 }
+	 document.getElementById("gsub").disabled=true;
+	 document.getElementById("ysub").disabled=true; 
+	 window.parent.document.getElementById("namesms").style.display="none";
+	 var paramData = "HiddenAction=InviteContacts&email_box=" + email;
+     paramData += "&password_box=" + pwd.replace("%","%25");
+     paramData += "&provider_box=" + provider_box;
+     var url = "../Subscriber";
+    var callback = {
+      success:     function(o) {
+      
+       document.getElementById("gload").style.display="none";
+		document.getElementById("yload").style.display="none";
+		if(o.responseText=="Login failed")
+		{
+			alert("Wrong email or Password. Please try again");
+			document.getElementById("gsub").disabled=false;
+	 		document.getElementById("ysub").disabled=false; 
+		}
+		else if(o.responseText=="Login failed")
+		{
+			alert("Wrong email or Password. Please try again");
+			document.getElementById("gsub").disabled=false;
+	 		document.getElementById("ysub").disabled=false; 
+		}
+		else
+		{
+			
+       
+		document.getElementById("QSPOPUP").style.display="block";
+		document.getElementById("qpopul").innerHTML="";
+			if(type=="g"){
+				  	document.getElementById("incontname").innerHTML="Gmail Contacts";
+			}
+			else if(type=="y"){
+				  	document.getElementById("incontname").innerHTML="Yahoo Contacts";
+			}
+			window.parent.window.scrollTo(0,0);
+			document.getElementById("qpopul").innerHTML=o.responseText;
+			var yresp1=o.responseText.split("<li>");
+			inflen=yresp1.length;
+			
+		}
+		
+        
+      },
+      failure:     function(o) {
+      //    alert("Not Inserted...!"+o.responseText);
+      document.getElementById("gsub").disabled=false;
+	 document.getElementById("ysub").disabled=false; 
+      },
+      argument: [],
+      timeout: 300000
+    }
+    var request = window.parent.YAHOO.util.Connect.asyncRequest('POST', url, callback, paramData);   
+}
+
+    
+
+function closeimp()
+{
+	document.getElementById("QSPOPUP").style.display="none";
+	document.getElementById("qsending").style.display="none";
+	document.getElementById("gsub").disabled=false;
+	document.getElementById("ysub").disabled=false; 
+	document.getElementById("guid").value="username";
+	document.getElementById("gpwd").value="*******";
+	document.getElementById("yuid").value="username";
+	document.getElementById("ypwd").value="*******";
+
+}
+var inflen=0;
+var lt=0;
+function sell(opt)
+	{
+		//var st = document.getElementById("hidchk").value;
+		if(opt=="All")
+		{
+			if(document.getElementById("chkall").checked==true){			
+			document.getElementById("chkall").checked=true;
+			document.getElementById("chknone").checked=false;
+			document.getElementById("chktoggle").checked=false;
+			var chk="";
+			for(var i=0;i<inflen-1;i++)
+			{
+				chk="cheid"+i;
+				document.getElementById(chk).checked=true;
+			}
+			}
+		}
+		else if(opt=="None")
+		{
+			if(document.getElementById("chknone").checked==true){			
+			document.getElementById("chkall").checked=false;
+			document.getElementById("chknone").checked=true;
+			document.getElementById("chktoggle").checked=false;
+			var chk="";
+			for(var i=0;i<inflen-1;i++)
+			{
+				chk="cheid"+i;
+				document.getElementById(chk).checked=false;
+			}
+			}
+		}
+		else if(opt=="Toggle")
+		{
+			
+			if(document.getElementById("chktoggle").checked==true){
+			document.getElementById("chkall").checked=false;
+			document.getElementById("chknone").checked=false;
+			document.getElementById("chktoggle").checked=true;
+			var chk="";
+			for(var i=0;i<inflen-1;i++)
+			{
+				chk="cheid"+i;
+				if(document.getElementById(chk).checked==true)
+				{
+					document.getElementById(chk).checked=false;
+				}
+				else
+				{
+					document.getElementById(chk).checked=true;
+				}
+			}
+			}
+		}	
+	}
+	function seninvite(){
+		document.getElementById("qsending").style.display="block";
+		var mailtousr="";
+		for(var i=0;i<inflen-1;i++){
+			var ifid="cheid"+i;
+			if(document.getElementById(ifid).checked){
+				var indiv="divid"+i;
+				//alert(document.getElementById(indiv).innerHTML);
+				mailtousr+=document.getElementById(indiv).innerHTML+",";
+			}
+		}
+		if(mailtousr=="")
+		{
+			document.getElementById("qsending").style.display="none";
+			alert("Please select atleast one Contact");
+			return false;
+		}
+		document.getElementById("qsendinvt").value="Progressing..";
+		document.getElementById("qsendinvt").disabled=true; 
+		var paramData = "HiddenAction=Insertinvite&email="+email1+"&mailtousr="+mailtousr;
+		var url = "../Subscriber";
+		var callback = {
+		  success: 	function(o) {
+		  		document.getElementById("QSPOPUP").style.display="none";
+		  		document.getElementById("qsending").style.display="none";
+		  		document.getElementById("guid").value="username";
+				document.getElementById("gpwd").value="*******";
+				document.getElementById("yuid").value="username";
+				document.getElementById("ypwd").value="*******";
+				document.getElementById("gsub").disabled=false;
+	 			document.getElementById("ysub").disabled=false; 
+	 			document.getElementById("qsendinvt").value="Send Invitation";
+				document.getElementById("qsendinvt").disabled=false; 
+		  		alert("Your Invitations have been sent successfully.");
+		  },
+	
+		  failure: 	function(o) {
+		  		document.getElementById("gsub").disabled=false;
+	 			document.getElementById("ysub").disabled=false; 
+	 			document.getElementById("qsendinvt").value="Send Invitation";
+				document.getElementById("qsendinvt").disabled=false; 
+		  },
+		  argument: [],
+		  timeout: 60000
+		}
+		var request = window.parent.YAHOO.util.Connect.asyncRequest('POST', url, callback, paramData);
+		
+	}
+	function dispr()
+	{
+		clearTimeout(st);
+		document.getElementById("drf").style.visibility="visible";
+	}
+	function dispr1()
+	{
+		document.getElementById("drf").style.visibility="hidden";
+	}
+	var st="";
+	function dispr2()
+	{
+		st=setTimeout("dispr1()",500);
+	}
+	function wyclose()
+	{
+		
+	//	document.getElementById("popup").style.display="none";
+		for(var kl=1;kl<=32;kl++)
+		  		{
+		  			var lriq="lir"+kl;
+		  			document.getElementById(lriq).style.backgroundColor="#fff";
+		  		}
+	}
+	function countChars5(str)
+	{
+       var l="140";
+       document.InstantSMS.textArea.value=str;
+       var len=document.InstantSMS.textArea.value.length;
+       var str=document.InstantSMS.textArea.value;
+       if(len<=l)
+       {
+    	   var st=parseInt(len/1.4);
+    	 	var st3=st+"px solid #b81818";
+    	   document.getElementById("bar").style.borderLeft=st3;
+    	   var st1=100-st;
+    	   var st2=st1+"px";
+       		document.getElementById("bar").style.width=st2;
+       		 document.InstantSMS.txtLen.value=l-len;
+       }
+       else
+       {
+          document.InstantSMS.textArea.value=str.substr(0,str.length-1);
+       } 
+ 	}
+function getcatdata5(data,page,div)
+{
+	if(div!=null)
+	{
+		document.getElementById('gm').className='';
+		document.getElementById('gn').className='';
+		document.getElementById('br').className='';
+		document.getElementById('fs').className='';
+		document.getElementById('ist').className='';
+		document.getElementById('qut').className='';
+		document.getElementById(div).className='active';
+	}
+	var paramData = "acction=share&catname="+data+"&pageno="+page;
+	document.getElementById("sharedisp").innerHTML="<div style='margin-top:210px;margin-left:240px;width:300px;'><img src='http://images.way2sms.com/v3/images/loading8.gif'></div>";
+		var url = "../getSmsGreetings";
+		
+		var callback = {
+		  success: 	function(o) {
+		  		
+		  		var resp=o.responseText;
+		  		document.getElementById("sharedisp").innerHTML=resp;
+		  },
+		  failure: 	function(o) {
+		  		alert("Failed to connect to the server.Please try again");	
+		  },
+		  argument: [],
+		  timeout: 300000
+		}
+	var request = window.parent.YAHOO.util.Connect.asyncRequest('POST', url, callback, paramData);
+	
+}
+function dsipsmsdiv(val)
+{
+	document.getElementById("textfield2").value="";
+	document.getElementById("wypoupup").style.display="block";
+	document.getElementById("textArea1").value=document.getElementById("grp"+val).innerHTML;
+	document.getElementById("txtLen1").value=140-document.getElementById("textArea1").value.length;
+		  var st=document.getElementById("textArea1").value.length/1.4;
+    	 	var st3=st+"px solid #b81818";
+    	   document.getElementById("bar1").style.borderLeft=st3;
+    	   var st1=100-st;
+    	   var st2=st1+"px";
+       		document.getElementById("bar1").style.width=st2;
+       		
+       		window.parent.window.scroll(0,0);
+	//alert(document.getElementById("grp"+val).innerHTML);
+}
+</script>
+<script type="text/javascript">
+function dysp(d)
+{
+	if(d=="1")
+	{
+		document.getElementById("sms").className="active";
+		document.getElementById("share2").className="";
+		document.getElementById("im").className="";
+		document.getElementById("mobno3").style.display="block";
+		document.getElementById("mobno2").style.display="block";
+		document.getElementById("dardisp").style.display="block";
+		document.getElementById("faceork").style.display="none";
+		document.getElementById("smsbutton").style.display="block";
+		document.getElementById("divtxtx").style.height="0px";
+		document.getElementById("quickpart1").style.display="block";
+		document.getElementById("quickpart2").style.display="none";
+		
+	}
+	else if(d=="2")
+	{
+		document.getElementById("sms").className="";
+		document.getElementById("share2").className="active";
+		document.getElementById("im").className="";
+		document.getElementById("mobno3").style.display="none";
+		document.getElementById("mobno2").style.display="none";
+		document.getElementById("dardisp").style.display="none";
+		document.getElementById("faceork").style.display="block";
+		document.getElementById("smsbutton").style.display="none";
+		document.getElementById("divtxtx").style.height="155px";
+		document.getElementById("quickpart1").style.display="block";
+		document.getElementById("quickpart2").style.display="none";
+		
+	} 
+	else if(d=="3")
+	{
+		document.getElementById("sms").className="";
+		document.getElementById("share2").className="";
+		document.getElementById("im").className="active";
+		document.getElementById("mobno3").style.display="none";
+		document.getElementById("mobno2").style.display="none";
+		document.getElementById("dardisp").style.display="none";
+		document.getElementById("faceork").style.display="none";
+		document.getElementById("smsbutton").style.display="none";
+		document.getElementById("divtxtx").style.height="205px";
+		document.getElementById("quickpart1").style.display="none";
+		document.getElementById("quickpart2").style.display="block";
+		
+	} 
+}
+function getcatdata7()
+{
+	if(window.parent.trend==0)
+		{
+			window.parent.gettrendingtopic();
+			setTimeout("getcatdata6()",2000);
+		}
+		else
+		{
+			getcatdata6();
+		}	
+}
+function getcatdata6()
+{
+	
+	if(window.parent.trend==0)
+	{
+		
+		getcatdata6()
+	}
+	else
+	{
+		document.getElementById("popular").className="active";
+	document.getElementById("msgs").className="";
+	document.getElementById("jokes").className="";
+	document.getElementById("div_catname").className="";
+		var st=window.parent.arytrend.split("*")
+		var st2="";
+		st2=st2+" <div style='margin-bottom:10px;position: relative; height: 318px; overflow: auto; overflow-x: hidden;'>";
+    	st2=st2+"<h2 id='catname'>Popular Now</h2>";
+		for(var i=1;i<=st.length-1;i++)
+		{
+			var st1=st[i].split("~");
+        	st2=st2+"<p><a href=\"javascript:getdata('gre"+i+"');\" id='gre"+i+"'>";
+            st2=st2+st1[2];
+            st2=st2+"</a></p>";
+   			
+			
+		}
+		st2=st2+"</div>";
+		document.getElementById("messages").innerHTML=st2;
+		
+		
+		
+	}
+}
+function clssmsdiv()
+{
+	document.getElementById("wypoupup").style.display="none";
+}
+function countChars1()
+{
+       var l="140";
+       var len=document.getElementById("textArea1").value.length;
+       var str=document.getElementById("textArea1").value;
+       if(len<=l)
+       {
+    	   var st=parseInt(len/1.4);
+    	 	var st3=st+"px solid #b81818";
+    	   document.getElementById("bar1").style.borderLeft=st3;
+    	   var st1=100-st;
+    	   var st2=st1+"px";
+       		document.getElementById("bar1").style.width=st2;
+       		 document.getElementById("txtLen1").value=l-len;
+       }
+       else
+       {
+          document.getElementById("textArea1").value=str.substr(0,str.length-1);
+       } 
+ }
+function checkMobNo1(custid)
+{
+
+	
+  if(document.getElementById("MobNo1").value==0)
+  {
+     alert("Please Enter Mobile Number");
+     document.getElementById("MobNo1").focus();
+     return false;
+  }
+   if(document.getElementById("MobNo1").value=="Mobile Number")
+  {
+     alert("Please Enter Mobile Number");
+     document.getElementById("MobNo1").focus();
+     return false;
+  }
+  if(document.getElementById("textArea1").value==0)
+  {
+     alert("Please Enter Your Message");
+     document.getElementById("textArea1").focus();
+     return false;
+  }
+  if(document.getElementById("MobNo1").value.length!=10)
+  {
+     alert("Please Enter Valid Mobile Number");
+     document.getElementById("MobNo1").focus();
+     return false;
+  }
+  
+  if(document.getElementById("MobNo1").value.charAt(0)!=9 && document.getElementById("MobNo1").value.charAt(0)!=8 && document.getElementById("MobNo1").value.charAt(0)!=7)
+  {
+		  alert("Please Enter Valid Mobile Number");
+          document.getElementById("MobNo1").value="";
+		  document.getElementById("MobNo1").focus();
+		  return false;
+  }
+  
+   if(!IsNumeric(document.getElementById("MobNo1").value))
+   {
+    	alert("Please Enter Valid Mobile Number"); 
+    	  document.getElementById("MobNo1").focus();
+    	return false;
+   }
+   if(document.getElementById("textArea1").value.length > 140)
+   {
+       alert("Message length exceeding over allocated 140 characters.")
+         document.getElementById("textArea1").focus();
+       return false;
+   }
+    window.parent.addToDraft(document.getElementById("textArea1").value);
+   document.getElementById("Send1").value="Sending..";
+  document.getElementById("Send1").disabled=true; 
+   document.getElementById("MobNo").value=document.getElementById("MobNo1").value
+   document.getElementById("textArea").value=document.getElementById("textArea1").value;
+   document.InstantSMS.submit();
+  
+  
+}
+</script>
+    <script type="text/javascript">
+      
+      function shareOrkut1()
+      {
+      	if(document.getElementById("gchk").checked==true)
+      	{
+      		if(document.getElementById("textArea").value.length > 140)
+		   {
+		       alert("Message length exceeding over allocated 140 characters.")
+		       document.getElementById("gchk").checked=false;
+		         document.getElementById("textArea").focus();
+		         
+		       return false;
+		   }
+		   if(document.getElementById("textArea").value==0)
+		  {
+		     alert("Please Enter Your Message");
+		      document.getElementById("gchk").checked=false;
+		     document.getElementById("textArea").focus();
+		     return false;
+		  }
+		  shareOrkut("Way2sms",document.getElementById("textArea").value);
+		  
+      	}
+      }
+      
+      function shareOrkut(title,body){
+		   if(window.parent.orktr==0)
+       	   {
+       		window.parent.loadorkut12();
+       		setTimeout("shareOrkut('"+title+"','"+body+"')",1000);
+       	   }
+        	   if(window.parent.orktr==1){
+			var params = {};
+			params[window.parent.google.orkut.share.Field.TITLE] = title;
+			var strSingleLineText = body.replace(new RegExp( "\\n", "g" )," ");
+			params[window.parent.google.orkut.share.Field.CONTENT] = strSingleLineText+" - sent via [link=http://www.way2sms.com]way2sms.com[/link]";
+			//params[google.orkut.share.Field.CONTENT] = body+" - sent via [link=http://www.way2sms.com]way2sms.com[/link]";
+			params[window.parent.google.orkut.share.Field.DESTINATION_URL] = 'http://www.way2sms.com';
+			var connection = new window.parent.google.orkut.share.Connection(params);
+			connection.send('orkut.com', {});
+			
+			document.getElementById("gchk").checked=false;
+			document.getElementById("textArea").value="";
+			var st=0;
+	    	 	var st3=st+"px solid #b81818";
+	    		 document.getElementById("bar").style.borderLeft=st3;
+	    		 var st1=100-st;
+	    		   var st2=st1+"px";
+	       		document.getElementById("bar").style.width=st2;
+	    		  document.InstantSMS.txtLen.value=140;
+	    		  window.parent.shareCount('ocount');
+	    		  window.parent.loadorkut12();
+	         }
+      }
+      function shareOrkut4(){
+       if(window.parent.orktr==0)
+       {
+       		window.parent.loadorkut12();
+       		setTimeout("shareOrkut4()",1000);
+       }
+       if(window.parent.orktr==1){
+		var params = {};
+		params[window.parent.google.orkut.share.Field.TITLE] = "WAY2SMS";
+		var body="Check this Next big revolution in indian internet - [link=http://www.way2sms.com]way2sms.com[/link]. I've been using [link=http://www.way2sms.com]way2sms.com[/link]  and thought you might like to try it out.";
+		var strSingleLineText = body.replace(new RegExp( "\\n", "g" )," ");
+		params[window.parent.google.orkut.share.Field.CONTENT] = strSingleLineText;
+		//params[google.orkut.share.Field.CONTENT] = body+" - sent via [link=http://www.way2sms.com]way2sms.com[/link]";
+		params[window.parent.google.orkut.share.Field.DESTINATION_URL] = 'http://www.way2sms.com';
+		var connection = new window.parent.google.orkut.share.Connection(params);
+		connection.send('orkut.com', {});
+		
+		document.getElementById("gchk").checked=false;
+		document.getElementById("textArea").value="";
+		window.parent.shareCount('ocount');
+		}
+      }
+      function shareOrkut2(title,val){
+       if(window.parent.orktr==0)
+       {
+       		window.parent.loadorkut12();
+       		setTimeout("shareOrkut2('"+title+"','"+val+"')",1000);
+       }
+       if(window.parent.orktr==1){
+		var params = {};
+		params[window.parent.google.orkut.share.Field.TITLE] = title;
+		var strSingleLineText = document.getElementById("grp"+val).innerHTML.replace(new RegExp( "\\n", "g" )," ");
+		params[window.parent.google.orkut.share.Field.CONTENT] = strSingleLineText+" - sent via [link=http://www.way2sms.com]way2sms.com[/link]";
+		//params[google.orkut.share.Field.CONTENT] = document.getElementById("grp"+val).innerHTML+" - sent via [link=http://www.way2sms.com]way2sms.com[/link]";
+		params[window.parent.google.orkut.share.Field.DESTINATION_URL] = 'http://www.way2sms.com';
+		var connection = new window.parent.google.orkut.share.Connection(params);
+		connection.send('orkut.com', {});
+		
+		document.getElementById("gchk").checked=false;
+		document.getElementById("textArea").value="";
+		window.parent.shareCount('ocount');
+		
+		}
+      }
+      function import1(type)
+	 {
+	
+	if(type=="g")
+	{
+			if(document.getElementById("guid").value=="" || document.getElementById("guid").value=="username")
+			{
+				alert("Please Enter Emailid");
+				document.getElementById("guid").focus();
+				return false;
+			}
+			
+			var email=document.getElementById("guid").value;
+			var pwd=document.getElementById("gpwd").value;
+			var provider_box="gmail";
+			if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)!=true)
+			{
+				alert("Invalid E-mail Address! Please Re-Enter.");
+				document.getElementById("guid").focus();
+				return;
+			}
+			if(document.getElementById("gpwd").value=="" || document.getElementById("gpwd").value=="*******")
+			{
+				alert("Please Enter Password");
+				document.getElementById("gpwd").focus();
+				return false;
+			}
+			email1=email;
+			document.getElementById("gload").style.display="block";
+				
+	 }
+	 if(type=="y")
+	 {
+			if(document.getElementById("yuid").value=="" || document.getElementById("yuid").value=="username")
+			{
+				alert("Please Enter Emailid");
+				document.getElementById("yuid").focus();
+				return false;
+			}
+			
+			var email=document.getElementById("yuid").value;
+			var pwd=document.getElementById("ypwd").value;
+			var provider_box="yahoo";
+			if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)!=true)
+			{
+				alert("Invalid E-mail Address! Please Re-Enter.");
+				document.getElementById("yuid").focus();
+				return;
+			}
+			if(document.getElementById("ypwd").value=="" || document.getElementById("ypwd").value=="*******")
+			{
+				alert("Please Enter Password");
+				document.getElementById("ypwd").focus();
+				return false;
+			}
+			email1=email;
+			document.getElementById("yload").style.display="block";
+			
+	 }
+	  document.getElementById("gsub").disabled=true;
+	 document.getElementById("ysub").disabled=true; 
+	 window.parent.document.getElementById("namesms").style.display="none";
+	 var paramData = "HiddenAction=InviteContacts&email_box=" + email;
+     paramData += "&password_box=" + pwd.replace("%","%25");
+     paramData += "&provider_box=" + provider_box;
+     var url = "../Subscriber";
+    var callback = {
+      success:     function(o) {
+        document.getElementById("gload").style.display="none";
+		document.getElementById("yload").style.display="none";
+		document.getElementById("chkall").checked=true;
+			document.getElementById("chknone").checked=false;
+			document.getElementById("chktoggle").checked=false;
+		if(o.responseText=="Login failed")
+		{
+			alert("Wrong email or Password. Please try again");
+			document.getElementById("gsub").disabled=false;
+	 		document.getElementById("ysub").disabled=false; 
+		}
+		else if(o.responseText=="Login failed")
+		{
+			alert("Wrong email or Password. Please try again");
+			document.getElementById("gsub").disabled=false;
+	 		document.getElementById("ysub").disabled=false; 
+		}
+		else
+		{
+			document.getElementById("QSPOPUP").style.display="block";
+		document.getElementById("qpopul").innerHTML="";
+			if(type=="g"){
+				  	document.getElementById("incontname").innerHTML="Gmail Contacts";
+			}
+			else if(type=="y"){
+				  	document.getElementById("incontname").innerHTML="Yahoo Contacts";
+			}
+			document.getElementById("qpopul").innerHTML=o.responseText;
+			var yresp1=o.responseText.split("<li>");
+			inflen=yresp1.length;
+			
+		}
+        
+      },
+      failure:     function(o) {
+      //    alert("Not Inserted...!"+o.responseText);
+      },
+      argument: [],
+      timeout: 300000
+    }
+    var request = window.parent.YAHOO.util.Connect.asyncRequest('POST', url, callback, paramData);   
+}
+var inflen=0;
+function sel(opt)
+	{
+		//var st = document.getElementById("hidchk").value;
+		if(opt=="All")
+		{
+			if(document.getElementById("chkall").checked==true){			
+			document.getElementById("chkall").checked=true;
+			document.getElementById("chknone").checked=false;
+			document.getElementById("chktoggle").checked=false;
+			var chk="";
+			for(var i=0;i<inflen-1;i++)
+			{
+				chk="cheid"+i;
+				document.getElementById(chk).checked=true;
+			}
+			}
+		}
+		else if(opt=="None")
+		{
+			if(document.getElementById("chknone").checked==true){			
+			document.getElementById("chkall").checked=false;
+			document.getElementById("chknone").checked=true;
+			document.getElementById("chktoggle").checked=false;
+			var chk="";
+			for(var i=0;i<inflen-1;i++)
+			{
+				chk="cheid"+i;
+				document.getElementById(chk).checked=false;
+			}
+			}
+		}
+		else if(opt=="Toggle")
+		{
+			
+			if(document.getElementById("chktoggle").checked==true){
+			document.getElementById("chkall").checked=false;
+			document.getElementById("chknone").checked=false;
+			document.getElementById("chktoggle").checked=true;
+			var chk="";
+			for(var i=0;i<inflen-1;i++)
+			{
+				chk="cheid"+i;
+				if(document.getElementById(chk).checked==true)
+				{
+					document.getElementById(chk).checked=false;
+				}
+				else
+				{
+					document.getElementById(chk).checked=true;
+				}
+			}
+			}
+		}	
+	}
+    function shareFacebook()
+      {
+      	if(document.getElementById("fbcb").checked==true)
+      	{
+      		if(window.parent.faceb==0)
+	      	{
+	      		window.parent.loadfacebook();
+	      		setTimeout("shareFacebook()",1000);
+	      	}
+	      	else
+	      	{
+      		try{
+      		var fbody="";
+	      	  if(document.getElementById("textArea").value==0)
+			  {
+			     alert("Please Enter Your Message");
+			     document.getElementById("fbcb").checked=false;
+			     document.getElementById("textArea").focus();
+			     return false;
+			  }else{
+			  	fbody=document.getElementById("textArea").value;
+			  }
+      		
+      		if(window.parent.FB.getSession()!=null){
+      			window.parent.shareFcontent(fbody+" - sent via www.way2sms.com");
+      			document.getElementById("fbcb").checked=false;
+      		}else{
+      			window.parent.fbChatLogin(fbody+" - sent via www.way2sms.com");
+      			document.getElementById("fbcb").checked=false;
+      		}
+      		window.parent.shareCount('fcount');
+      		document.getElementById("gchk").checked=false;
+		document.getElementById("textArea").value="";
+		var st=0;
+    	 var st3=st+"px solid #b81818";
+    	 document.getElementById("bar").style.borderLeft=st3;
+    	 var st1=100-st;
+    	   var st2=st1+"px";
+       		document.getElementById("bar").style.width=st2;
+    	  document.InstantSMS.txtLen.value=140;
+      		}catch(e){alert(e);}
+      		}
+      	}
+      }
+      function shareFacebook1(val1,val)
+      {
+      	if(window.parent.faceb==0)
+      	{
+      		window.parent.loadfacebook();
+      		setTimeout("shareFacebook1('"+val1+"','"+val+"')",1000);
+      	}
+      	else
+      	{
+	      	if(window.parent.FB.getSession()!=null){
+	      			window.parent.shareFcontent(document.getElementById("grp"+val).innerHTML+" - sent via www.way2sms.com");
+	      		}else{
+	      			window.parent.fbChatLogin(document.getElementById("grp"+val).innerHTML+" - sent via www.way2sms.com");
+	      		}window.parent.shareCount('fcount');
+      	}
+      	
+      	
+      }
+       function shareFacebook2()
+      {
+      	if(window.parent.faceb==0)
+      	{
+      		window.parent.loadfacebook();
+      		setTimeout("shareFacebook2()",1000);
+      	}
+      	else
+      	{
+      	var body="Check this Next big revolution in indian internet - www.way2sms.com. I've been using www.way2sms.com  and thought you might like to try it out.";
+      	if(window.parent.FB.getSession()!=null){
+      			window.parent.shareFcontent(body);
+      		}else{
+      			window.parent.fbChatLogin(body);
+      		}window.parent.shareCount('fcount');
+      		}
+      		
+      	
+      }
+    </script>
+
+
+
+</head>
+
+      <script type="text/javascript">
+         window.parent.finsh1();
+      </script>
+     
+
+</html>

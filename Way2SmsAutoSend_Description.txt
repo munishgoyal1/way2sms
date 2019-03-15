@@ -1,0 +1,58 @@
+This tool sends birthday wishes via SMS to all your friends. You have to install it once and it will keep running automatically in the background.
+Everyday it will wish friends having birthday on that day. It uses minimal resources and remains idle once it has made wishes for that day.
+
+*Good for business people and people with large contact circle, who may not be able to do manual wishes everyday*
+
+It uses Google Contacts and Way2Sms accounts.
+
+! *To start using it:*
+
+!! Accounts Setup
+* Use an existing or create a new google (gmail) account. (http://gmail.com)
+* Use an existing or create a new way2sms account.  (http://way2sms.com)
+
+After setting up both the above accounts, you simply need to do the following.
+
+## Login into google network (gmail, orkut etc.)
+## Goto http://google.com/contacts
+## Add new contacts or edit existing contact
+
+** For each contact, you need to update the Birthday and Mobile number. 
+** Additionally, you can update the Name (First/Last). Because to greet the person, we need an Addressing name. 
+*To make things convenient, we use the Title field for the purpose of Personalized addressing name (Nickname sort of)*
+*For ex: For your parents, you may not want to address them by their First/Last names, so you can put "Dad" , "Mom" etc. in the Title field.*
+
+*NOTES: *
+# If the Title field is not empty then it will be used otherwise the FirstName will be used.
+# If the mobile number is empty or otherwise invalid, it will be ignored and that person will not be sent an SMS.
+
+!! *The UI part*
+
+# Here you need to give credentials (ID, Password) both fro Way2Sms and Google accounts. And optionally, you can mention the message you want to send eg._"Happy birthday to you"_ and your Signature _"~~ From:  Munish Goyal ~~"_ or otherwise you can use Default messages for the same by checking the default checkbox.
+
+# If you click on _"Remember all info"_ then your credentials will be saved to your local computer, just like you do "remember my password" in browsers. And message/Signature are saved in all cases. So next time, you need not fill in all this info again, you just click Submit on it every day once (say in morning)  and it sends out the wishes automatically.
+
+
+! *Beta 1.1 (latest) installation setup*
++Requires .NET 4.0 client profile installation. If not present it will be automatically downloaded from Microsoft.+
+
+# Setup msi at [url:http://way2smsautosend.codeplex.com/releases/view/70593]
+# Run this setup msi. After install, run the Way2SmsAppLogin shortcut (green color icon) from desktop or C:\Program Files\Way2SmsTools\AutomaticBirthdayWisher\Way2SmsApp.UI.exe
+# *(Mandatory)Enter the credentials and save them. This is required only once. After that the service takes care of doing the needful everyday.*
+
+*RELEASE NOTES*
+* Made it as windows service which runs automatically when your computer starts, so that you need not do it manually everytime.
+* Made it more robust. Suppose it fails due to network unavailable, way2sms down or so, then it can retry  again. 
+
+!! *Beta 1.0 (old)*
+Using the downloaded Binaries (exe):
+
+# Download the zipped binaries bundle from [url:http://way2smsautosend.codeplex.com/releases/view/70367] 
+# Extract it to any local folder on your computer. 
+# Then Run Way2SmsUI.exe
+
+
+! *Future Release* 
+_To add popular demand features as and when time permits_
+
+

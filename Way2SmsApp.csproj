@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{14EC8B8C-1D0B-470F-8AC5-CE31C86B7C09}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Way2SmsApp</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ConsoleTest\bin\Debug\ConsoleTest.exe" />
+    <Content Include="ConsoleTest\bin\Debug\ConsoleTest.pdb" />
+    <Content Include="ConsoleTest\bin\Debug\ConsoleTest.vshost.exe" />
+    <Content Include="ConsoleTest\bin\Debug\Google.dll" />
+    <Content Include="ConsoleTest\bin\Debug\Google.GData.Client.dll" />
+    <Content Include="ConsoleTest\bin\Debug\Google.GData.Contacts.dll" />
+    <Content Include="ConsoleTest\bin\Debug\Google.GData.Extensions.dll" />
+    <Content Include="ConsoleTest\bin\Debug\Google.pdb" />
+    <Content Include="ConsoleTest\ConsoleTest.csproj" />
+    <Content Include="ConsoleTest\obj\x86\Debug\ConsoleTest.csproj.FileListAbsolute.txt" />
+    <Content Include="ConsoleTest\obj\x86\Debug\ConsoleTest.exe" />
+    <Content Include="ConsoleTest\obj\x86\Debug\ConsoleTest.pdb" />
+    <Content Include="Google\bin\Debug\Google.GData.AccessControl.dll" />
+    <Content Include="Google\bin\Debug\Google.GData.Apps.dll" />
+    <Content Include="Google\bin\Debug\Google.GData.Calendar.dll" />
+    <Content Include="Google\bin\Debug\Google.GData.Client.dll" />
+    <Content Include="Google\bin\Debug\Google.GData.Contacts.dll" />
+    <Content Include="Google\bin\Debug\Google.GData.Extensions.dll" />
+    <Content Include="Google\bin\Debug\Google.GData.GoogleBase.dll" />
+    <Content Include="Google\bin\Debug\Way2Sms.Google.dll" />
+    <Content Include="Google\bin\Debug\Way2Sms.Google.pdb" />
+    <Content Include="Google\Google.csproj" />
+    <Content Include="Google\obj\Debug\Google.csproj.FileListAbsolute.txt" />
+    <Content Include="Google\obj\Debug\Way2Sms.Google.dll" />
+    <Content Include="Google\obj\Debug\Way2Sms.Google.pdb" />
+    <Content Include="HtmlParsingLibrary\bin\Debug\HtmlParsingLibrary.dll" />
+    <Content Include="HtmlParsingLibrary\bin\Debug\HtmlParsingLibrary.pdb" />
+    <Content Include="HtmlParsingLibrary\HtmlParsingLibrary.csproj" />
+    <Content Include="HtmlParsingLibrary\HtmlParsingLibrary.csproj.user" />
+    <Content Include="HtmlParsingLibrary\obj\Debug\HtmlParsingLibrary.csproj.FileListAbsolute.txt" />
+    <Content Include="HtmlParsingLibrary\obj\Debug\HtmlParsingLibrary.dll" />
+    <Content Include="HtmlParsingLibrary\obj\Debug\HtmlParsingLibrary.pdb" />
+    <Content Include="HttpLibrary\bin\Debug\HttpLibrary.dll" />
+    <Content Include="HttpLibrary\bin\Debug\HttpLibrary.pdb" />
+    <Content Include="HttpLibrary\HttpLibrary.csproj" />
+    <Content Include="HttpLibrary\HttpLibrary.csproj.user" />
+    <Content Include="HttpLibrary\obj\Debug\HttpLibrary.csproj.FileListAbsolute.txt" />
+    <Content Include="HttpLibrary\obj\Debug\HttpLibrary.dll" />
+    <Content Include="HttpLibrary\obj\Debug\HttpLibrary.pdb" />
+    <Content Include="Logging\bin\Debug\Database.dll" />
+    <Content Include="Logging\bin\Debug\Database.pdb" />
+    <Content Include="Logging\bin\Debug\Logging.dll" />
+    <Content Include="Logging\bin\Debug\Logging.pdb" />
+    <Content Include="Logging\Logging.csproj" />
+    <Content Include="Logging\Logging.csproj.user" />
+    <Content Include="Logging\obj\Debug\Logging.csproj.FileListAbsolute.txt" />
+    <Content Include="Logging\obj\Debug\Logging.dll" />
+    <Content Include="Logging\obj\Debug\Logging.pdb" />
+    <Content Include="UI\bin\Debug\Google.GData.AccessControl.dll" />
+    <Content Include="UI\bin\Debug\Google.GData.Apps.dll" />
+    <Content Include="UI\bin\Debug\Google.GData.Calendar.dll" />
+    <Content Include="UI\bin\Debug\Google.GData.Client.dll" />
+    <Content Include="UI\bin\Debug\Google.GData.Contacts.dll" />
+    <Content Include="UI\bin\Debug\Google.GData.Extensions.dll" />
+    <Content Include="UI\bin\Debug\Google.GData.GoogleBase.dll" />
+    <Content Include="UI\bin\Debug\Way2Sms.UI.exe" />
+    <Content Include="UI\bin\Debug\Way2Sms.UI.pdb" />
+    <Content Include="UI\bin\Debug\Way2Sms.vshost.exe" />
+    <Content Include="UI\obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="UI\obj\x86\Debug\UI.csproj.FileListAbsolute.txt" />
+    <Content Include="UI\obj\x86\Debug\Way2Sms.csproj.FileListAbsolute.txt" />
+    <Content Include="UI\obj\x86\Debug\Way2Sms.UI.exe" />
+    <Content Include="UI\obj\x86\Debug\Way2Sms.UI.pdb" />
+    <Content Include="UI\UI.csproj" />
+    <Content Include="Way2Sms\Way2SmsCore.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsoleTest\Program.cs" />
+    <Compile Include="ConsoleTest\Properties\AssemblyInfo.cs" />
+    <Compile Include="Google\ContactCleaner.cs" />
+    <Compile Include="Google\GoogleContacts.cs" />
+    <Compile Include="Google\Properties\AssemblyInfo.cs" />
+    <Compile Include="HtmlParsingLibrary\HtmlParser.cs" />
+    <Compile Include="HtmlParsingLibrary\Properties\AssemblyInfo.cs" />
+    <Compile Include="HtmlParsingLibrary\StringParser.cs" />
+    <Compile Include="HttpLibrary\HttpHelper.cs" />
+    <Compile Include="HttpLibrary\Properties\AssemblyInfo.cs" />
+    <Compile Include="Logging\FileTracing.cs" />
+    <Compile Include="Logging\Log.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Logging\LogManager.cs" />
+    <Compile Include="Logging\Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\GoogleContacts.cs" />
+    <Compile Include="UI\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\obj\x86\Debug\App.g.cs" />
+    <Compile Include="UI\obj\x86\Debug\App.g.i.cs" />
+    <Compile Include="UI\obj\x86\Debug\MainWindow.g.cs" />
+    <Compile Include="UI\obj\x86\Debug\MainWindow.g.i.cs" />
+    <Compile Include="UI\Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Properties\Resources.Designer.cs" />
+    <Compile Include="UI\Properties\Settings.Designer.cs" />
+    <Compile Include="Way2Sms\Properties\AssemblyInfo.cs" />
+    <Compile Include="Way2Sms\Way2SmsWish.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ConsoleTest\bin\Debug\ConsoleTest.vshost.exe.manifest" />
+    <None Include="ConsoleTest\obj\x86\Debug\build.force" />
+    <None Include="ConsoleTest\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache" />
+    <None Include="Google\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Google\obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="HtmlParsingLibrary\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="HttpLibrary\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Logging\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Logging\obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="UI\bin\Debug\Way2Sms.vshost.exe.manifest" />
+    <None Include="UI\obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="UI\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="UI\obj\x86\Debug\GenerateResource.read.1.tlog" />
+    <None Include="UI\obj\x86\Debug\GenerateResource.write.1.tlog" />
+    <None Include="UI\obj\x86\Debug\MainWindow.baml" />
+    <None Include="UI\obj\x86\Debug\Way2Sms.UI_MarkupCompile.cache" />
+    <None Include="UI\obj\x86\Debug\Way2Sms.UI_MarkupCompile.i.cache" />
+    <None Include="UI\obj\x86\Debug\Way2Sms_MarkupCompile.i.cache" />
+    <None Include="UI\Properties\Settings.settings" />
+    <None Include="Way2Sms\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="UI\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\obj\x86\Debug\Way2Sms.Properties.Resources.resources" />
+    <EmbeddedResource Include="UI\obj\x86\Debug\Way2Sms.UI.g.resources" />
+    <EmbeddedResource Include="UI\obj\x86\Debug\Way2Sms.UI.Properties.Resources.resources" />
+    <EmbeddedResource Include="UI\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ConsoleTest\bin\Release\" />
+    <Folder Include="ConsoleTest\obj\x86\Debug\TempPE\" />
+    <Folder Include="Google\bin\Release\" />
+    <Folder Include="Google\obj\Debug\TempPE\" />
+    <Folder Include="HtmlParsingLibrary\obj\Debug\TempPE\" />
+    <Folder Include="HttpLibrary\obj\Debug\TempPE\" />
+    <Folder Include="Logging\obj\Debug\TempPE\" />
+    <Folder Include="UI\bin\Release\" />
+    <Folder Include="Way2Sms\bin\Debug\" />
+    <Folder Include="Way2Sms\bin\Release\" />
+    <Folder Include="Way2Sms\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

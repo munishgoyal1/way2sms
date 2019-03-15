@@ -1,0 +1,17 @@
+﻿<Window x:Class="Way2SmsApp.UI.AddressBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AddressBook" Height="462" Width="522">
+    <Grid>
+        <ListBox Height="233" HorizontalAlignment="Left" Margin="12,12,0,0" Name="listBox1" VerticalAlignment="Top" Width="177" />
+        <CheckBox Content="CheckBox" Height="16" HorizontalAlignment="Left" Margin="409,12,0,0" Name="checkBox1" VerticalAlignment="Top" />
+        <Button Content="Submit" Height="23" HorizontalAlignment="Left" Margin="179,377,0,0" Name="button1" VerticalAlignment="Top" Width="75" />
+        <TextBox Height="61" HorizontalAlignment="Left" Margin="53,286,0,0" Name="textBox5" VerticalAlignment="Top" Width="168" />
+        <TextBox Height="61" HorizontalAlignment="Left" Margin="296,286,0,0" Name="textBox6" VerticalAlignment="Top" Width="168" />
+        <Label Content="Message" Height="28" HorizontalAlignment="Left" Margin="53,260,0,0" Name="label7" VerticalAlignment="Top" />
+        <Label Content="Signature(From)" Height="28" HorizontalAlignment="Left" Margin="296,260,0,0" Name="label8" VerticalAlignment="Top" />
+        <CheckBox Content="Default" Height="16" HorizontalAlignment="Left" Margin="166,265,0,0" Name="checkBox2" VerticalAlignment="Top" />
+        <CheckBox Content="Default" Height="16" HorizontalAlignment="Left" Margin="409,265,0,0" Name="checkBox3" VerticalAlignment="Top" />
+        <Button Content="Clear" Height="23" HorizontalAlignment="Left" Margin="264,377,0,0" Name="button2" VerticalAlignment="Top" Width="75" />
+    </Grid>
+</Window>
